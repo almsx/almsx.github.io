@@ -3316,7 +3316,8 @@ body {
 }
 
 .xcaaae__button:hover {
-	cursor: pointer
+	cursor: pointer;
+		border: 3px solid #003366;
 }
 
 .xcaaae__button_hidden {
