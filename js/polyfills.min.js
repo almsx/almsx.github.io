@@ -1,0 +1,31 @@
+var g = "function" == typeof Object.assign ? Object.assign : function(b, e) {
+	for (var c = 1; c < arguments.length; c++) {
+		var d = arguments[c];
+		if (d) {
+			for (var f in d) {
+				Object.prototype.hasOwnProperty.call(d, f) && (b[f] = d[f]);
+			}
+		}
+	}
+	return b;
+}, h = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, e, c) {
+	b != Array.prototype && b != Object.prototype && (b[e] = c.value);
+}, k = "undefined" != typeof window && window === this ? this : "undefined" != typeof global && null != global ? global : this;
+function l(b, e) {
+	if (e) {
+		var c = k;
+		b = b.split(".");
+		for (var d = 0; d < b.length - 1; d++) {
+			var f = b[d];
+			f in c || (c[f] = {});
+			c = c[f];
+		}
+		b = b[b.length - 1];
+		d = c[b];
+		e = e(d);
+		e != d && null != e && h(c, b, {configurable:!0, writable:!0, value:e});
+	}
+}
+l("Object.assign", function(b) {
+	return b || g;
+});

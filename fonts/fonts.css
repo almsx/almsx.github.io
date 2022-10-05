@@ -1,0 +1,221 @@
+/* Lato */
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  src: url(lato/lato-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: italic;
+  src: url(lato/lato-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 500;
+  src: url(lato/lato-medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 600;
+  src: url(lato/lato-semibold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700;
+  src: url(lato/lato-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-style: italic;
+  src: url(lato/lato-bold-italic.woff) format('woff');
+}
+
+/* Open Sans */
+@font-face {
+  font-family: "open-sans";
+  font-weight: 400;
+  src: url(opensans/open-sans-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "open-sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url(opensans/open-sans-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: "open-sans";
+  font-weight: 700;
+  src: url(opensans/open-sans-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "open-sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url(opensans/open-sans-bold-italic.woff) format('woff');
+}
+
+/* Roboto */
+@font-face {
+  font-family: "roboto";
+  font-weight: 400;
+  src: url(roboto/roboto-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "roboto";
+  font-weight: 400;
+  font-style: italic;
+  src: url(roboto/roboto-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: "roboto";
+  font-weight: 700;
+  src: url(roboto/roboto-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "roboto";
+  font-weight: 700;
+  font-style: italic;
+  src: url(roboto/roboto-bold-italic.woff) format('woff');
+}
+
+/* roboto-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  src: url(roboto/roboto-v20-latin_cyrillic-500.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Merriweather */
+@font-face {
+  font-family: "merriweather";
+  font-weight: 400;
+  src: url(merriweather/merriweather-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "merriweather";
+  font-weight: 400;
+  font-style: italic;
+  src: url(merriweather/merriweather-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: "merriweather";
+  font-weight: 700;
+  src: url(merriweather/merriweather-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "merriweather";
+  font-weight: 700;
+  font-style: italic;
+  src: url(merriweather/merriweather-bold-italic.woff) format('woff');
+}
+
+/* Roboto Slab */
+@font-face {
+  font-family: "roboto-slab";
+  font-weight: 400;
+  src: url(robotoslab/roboto-slab-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "roboto-slab";
+  font-weight: 700;
+  src: url(robotoslab/roboto-slab-bold.woff) format('woff');
+}
+
+/* Exo 2 */
+@font-face {
+  font-family: "exo-2";
+  font-weight: 400;
+  src: url(exo2/exo2-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "exo-2";
+  font-weight: 400;
+  font-style: italic;
+  src: url(exo2/exo2-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: "exo-2";
+  font-weight: 700;
+  src: url(exo2/exo2-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "exo-2";
+  font-weight: 700;
+  font-style: italic;
+  src: url(exo2/exo2-bold-italic.woff) format('woff');
+}
+
+/* Montserrat */
+@font-face {
+  font-family: "montserrat";
+  font-weight: 400;
+  src: url(montserrat/montserrat-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 400;
+  font-style: italic;
+  src: url(montserrat/montserrat-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 700;
+  src: url(montserrat/montserrat-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-style: italic;
+  src: url(montserrat/montserrat-bold-italic.woff) format('woff');
+}
+
+/* PT Serif */
+@font-face {
+  font-family: "pt-serif";
+  font-weight: 400;
+  src: url(ptserif/pt-serif-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: "pt-serif";
+  font-weight: 400;
+  font-style: italic;
+  src: url(ptserif/pt-serif-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: "pt-serif";
+  font-weight: 700;
+  src: url(ptserif/pt-serif-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: "pt-serif";
+  font-weight: 700;
+  font-style: italic;
+  src: url(ptserif/pt-serif-bold-italic.woff) format('woff');
+}
