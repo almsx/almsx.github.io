@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-	<title>N1C1: La evolución digital en L'Oréal</title>
-	<script src="js/polyfills.min.js"></script>
-	<script src="js/focus-visible.min.js"></script>
-	<script src="js/core-polyfill.min.js"></script>
-	<script src="js/css-vars-ponyfill.min.js"></script>
-	<script src="js/hyper.min.js"></script>
-	<script src="js/protobuf.min.js"></script>
-	<script src="js/resizeobserver.js"></script>
-	<script src="js/immer.umd.js"></script>
-	<script src="js/output.min.js"></script>
-	<script src="connectors/scorm.min.js"></script>
-	<link href="fonts/fonts.css" rel="stylesheet">
-	<link href="styles/bundle.css" rel="stylesheet">
-	
-</head>
-<body>
-<script>
-	function startFn(resumeState) {
-		return window.start('lng/en-US/messages.json', 'styles/bundle.css',resumeState, '', '')
-	}
-	window.onload = function() {
-		iSpring.roll.LMS.create({"apiVersion":"scorm2004","contentId":"5db31843-eab5-4e51-b153-e20b7e199b3c","flags":0,"edition":"4","chaptersCount":7}, {})
-			.initialize(startFn)
-	}
-</script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=no"
+    />
+    <title>N1C1: La evolución digital en L'Oréal</title>
+    <script src="js/polyfills.min.js"></script>
+    <script src="js/focus-visible.min.js"></script>
+    <script src="js/core-polyfill.min.js"></script>
+    <script src="js/css-vars-ponyfill.min.js"></script>
+    <script src="js/hyper.min.js"></script>
+    <script src="js/protobuf.min.js"></script>
+    <script src="js/resizeobserver.js"></script>
+    <script src="js/immer.umd.js"></script>
+    <script src="js/output.min.js"></script>
+    <script src="connectors/scorm.min.js"></script>
+    <link href="fonts/fonts.css" rel="stylesheet" />
+    <link href="styles/bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      function startFn(resumeState) {
+        return window.start(
+          "lng/en-US/messages.json",
+          "styles/bundle.css",
+          resumeState,
+          "",
+          ""
+        );
+      }
+      window.onload = function () {
+        iSpring.roll.LMS.create(
+          {
+            apiVersion: "scorm2004",
+            contentId: "5db31843-eab5-4e51-b153-e20b7e199b3c",
+            flags: 0,
+            edition: "4",
+            chaptersCount: 7,
+          },
+          {}
+        ).initialize(startFn);
+      };
+    </script>
+    <h1>Agregue un nuevo cambio</h1>
+  </body>
 </html>
