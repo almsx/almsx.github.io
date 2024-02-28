@@ -1,51 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,user-scalable=no"
-    />
-    <title>N1C1: La evolución digital en L'Oréal</title>
-    <script src="js/polyfills.min.js"></script>
-    <script src="js/focus-visible.min.js"></script>
-    <script src="js/core-polyfill.min.js"></script>
-    <script src="js/css-vars-ponyfill.min.js"></script>
-    <script src="js/hyper.min.js"></script>
-    <script src="js/protobuf.min.js"></script>
-    <script src="js/resizeobserver.js"></script>
-    <script src="js/immer.umd.js"></script>
-    <script src="js/output.min.js"></script>
-    <script src="connectors/scorm.min.js"></script>
-    <link href="fonts/fonts.css" rel="stylesheet" />
-    <link href="styles/bundle.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera pagina</title>
   </head>
   <body>
-    <script>
-      function startFn(resumeState) {
-        return window.start(
-          "lng/en-US/messages.json",
-          "styles/bundle.css",
-          resumeState,
-          "",
-          ""
-        );
-      }
-      window.onload = function () {
-        iSpring.roll.LMS.create(
-          {
-            apiVersion: "scorm2004",
-            contentId: "5db31843-eab5-4e51-b153-e20b7e199b3c",
-            flags: 0,
-            edition: "4",
-            chaptersCount: 7,
-          },
-          {}
-        ).initialize(startFn);
-      };
-    </script>
-    <h1>Agregue un nuevo cambio</h1>
-    <h1>Ahora desde consola</h1>
-    <h1>Agrego un tercer cambio</h1>
+    <header>
+      <h1>La tienda de Beto</h1>
+      <div>
+        <nav>
+          <ul>
+            <li>Inicio</li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1>Bienvenido a Beto Store</h1>
+      <a href="http://validator.w3.org/check/referer" rel="nofollow" title="Validate as HTML5">Validar mi pagina</a>
+    </main>
+    <footer>
+      <h3>Copyright &reg; 2024. Alberto Luebbert</h3>
+    </footer>
   </body>
 </html>
+
+<!--  
+
+  ksksksksksksksksksksksksks
+  sksksksk
+
+  Esta pagina es para 
+
+
+-->
+
+<!-- Dudas de la clase
+
+    1. Atziri. Características de los divs y el como se ve listada la información.
+    2. Atziri. Cuestionario de autoevaluación es iframe y video. - Resuelta.
+    3. Andrea. No hay pregunta, es recomendación - Resuelta
+    4. Vanessa. No hay pregunta - Resuelta
+    5. Jessica Karina. Estructura de los proyectos - Resuelta
+    6. Diana. Estructrua de proyecto final - Resuelta
+    7. Samara. No hay pregunta - Resuelta
+    8. Esmeralda. ¿cómo insertar imagenes?
+    9. Joseline. Replica del sitio de Junior - Resuelta
+    10. Joseline. Formato de Imagenes soportados y listado de datos (ul/li).
+    11. Miriam. La manera de identificar un selector de clase - ¿Cómo es?
+    12. Formatear el código - Resuelta
+
+    13. Atziri. Links a otras paginas
+    14. Atziri. Links a Whatsapp y a Correo.
+-->
